@@ -2,6 +2,8 @@
 
 Reusable GitHub Copilot assets for a hierarchical repository navigation workflow built around `CODEMAP.md` files.
 
+![Illustration of a developer using a repository map to guide coding-assistant navigation](assets/codemap-workflow.png)
+
 ## What this repo contains
 
 - `.github/skills/analyze-submodule-map/SKILL.md` - a skill that tells Copilot to read the root `CODEMAP.md`, then the nearest child map, then only the relevant source files
